@@ -10,6 +10,12 @@ html {
     line-height: 1.4;
 }
 
+body {
+    background-color: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -63,16 +69,20 @@ textarea {
 #mc_embed_signup {
     background:#fff; 
     clear:left; 
-    font:14px Helvetica,Arial,sans-serif;  
-    max-width: 500px;
+    max-width: 600px;
     width: 100%;
     margin: 0 auto;
+    margin-top: 40px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 #mc_embed_signup form {
     padding: 10px;
 }
 
 #mc_embed_signup label {
+    font-size:32px;
+    color: #47245c;
     text-align: center;
 }
 
@@ -83,17 +93,17 @@ textarea {
 }
 
 #mc_embed_signup input.button {
-    width: 100%;
-    border-radius: 5px;
-    padding: 15px;
+    border-radius: 10px;
+    padding: 5px;
     height: auto;
+    width: auto;
 }
 
 #mc_embed_signup .button {
-    background-color: #7e52d2;
+    background-color: #ffc523;
 }
 #mc_embed_signup .button:hover {
-    background-color: #8d68ea;
+    background-color: #ffd152;
 }
 
 
