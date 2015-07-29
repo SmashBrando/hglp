@@ -8,12 +8,15 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    height: 100%;
 }
 
 body {
     background-color: #f4f4f4;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    border-top: 18px solid #3c1753;
+    height: 100%;
 }
 
 ::-moz-selection {
@@ -66,6 +69,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    min-height: 100%;
+    padding-bottom: 390px;
+} 
+
+.logo {
+
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+
 #mc_embed_signup {
     background:#fff; 
     clear:left; 
@@ -104,6 +127,16 @@ textarea {
 }
 #mc_embed_signup .button:hover {
     background-color: #ffd152;
+}
+
+footer {
+    margin-top: -365px;
+    height: 365px;
+}
+
+.grem img {
+    display: block;
+    margin: 0 auto;
 }
 
 
